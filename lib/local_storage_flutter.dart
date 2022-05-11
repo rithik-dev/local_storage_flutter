@@ -1,4 +1,4 @@
-// @github/rithik-dev/
+// @github/rithik-dev
 //
 library local_storage_flutter;
 
