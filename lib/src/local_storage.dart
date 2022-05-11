@@ -7,6 +7,7 @@ class LocalStorage {
 
   static late final SharedPreferences _prefs;
 
+  /// Should be called only once
   static Future<void> initialize() async =>
       _prefs = await SharedPreferences.getInstance();
 
